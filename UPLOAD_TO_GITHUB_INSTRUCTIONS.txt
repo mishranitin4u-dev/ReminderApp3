@@ -1,0 +1,10 @@
+DAILY REMINDER V2.2 - BUILD FIX 4
+
+Upload the CONTENTS of this folder to the root of your GitHub repository.
+The workflow is at .github/workflows/main.yml.
+Ensure hidden .github folder is included.
+The workflow generates Android scaffolding, restores the app manifest and alarm sounds,
+enables core library desugaring in either Gradle Groovy or Kotlin DSL, then builds and uploads the APK.
+
+In your GitHub repository, remove/replace older workflow files under .github/workflows
+so that only main.yml remains, avoiding duplicate workflows.
